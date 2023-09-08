@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+/* font-family: 'Inter', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap");
+/* font-family: "Comfortaa", cursive; */
+
+/* #fce7f3 pink 100 */
+/* #fbcfe8 pink 200 */
+/* #f9a8d4 pink 300 */
+/* #f472b6 pink 400 */
+/* #db2777 pink 600 */
+/* #0a0a0a neutral 950 */
+
+:root {
+  --primary: #f472b6;
+  --secondary: #db2777;
+  --bg: #0a0a0a;
+  --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
+}
+
+.font-comfortaa {
+  font-family: "Comfortaa", cursive;
+}
+
+.primary-text {
+  color: var(--primary);
+}
+
+.secondary-text {
+  color: var(--secondary);
+}
+
+.dark-text {
+  color: #0f172a;
+}
+
+.primary-bg {
+  background-color: var(--primary);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* nav */
+.nav-logo {
+  width: 2rem;
+  margin-right: 4px;
+}
+
+.navbar-nav a:hover {
+  color: var(--secondary);
+}
+
+.home {
+  color: var(--primary);
+}
+
+/* header */
+.cta:hover {
+  background-color: var(--secondary);
+}
+
+/* fitur */
+#fitur {
+  background-color: #fce7f3;
+}
+
+.icons {
+  width: 3rem;
+}
+
+.card-fitur {
+  background-color: #fbcfe8;
+}
+.card-fitur:hover {
+  background-color: #f9a8d4;
+}
+/* tema */
+
+/* testimoni */
+#testimoni {
+  background-color: #fce7f3;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.slider-testimoni {
+  background-color: #fff;
+}
+
+/* harga */
+.card-harga:hover {
+  box-shadow: 0px 0px 30px #cbd5e1;
+}
+
+/* footer */
+footer {
+  background-color: #fce7f3;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.payments {
+  width: 5rem;
+}
+
+.footer-icon {
+  width: 2.5rem;
+}
+
+/* mobile */
+@media (max-width: 576px) {
+}
+
+/* tablet */
+@media (max-width: 992px) {
+  .cta {
+    margin-bottom: 8px;
+  }
+}
